@@ -1,0 +1,22 @@
+{
+    "num_chars": 1795,
+    "num_words": 5185,
+    "char_dim": 100,
+    "word_dim": 100,
+    "num_tags": 12,
+    "seg_dim": 4,
+    "pos_dim": 40,
+    "lstm_dim": 150,
+    "batch_size": 20,
+    "windows": 5,
+    "emb_file": "vectors7_char",
+    "emb_file2": "vectors7_word",
+    "clip": 5,
+    "dropout_keep": 0.09999999999999998,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "tag_schema": "iobes",
+    "pre_emb": true,
+    "zeros": true,
+    "lower": true
+}
